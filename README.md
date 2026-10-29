@@ -1,4 +1,4 @@
-# Do Modern Tabular Deep Learning Models Advance Software Defect Prediction?
+# A Large Scale Evaluation of Modern Tabular Learning Methods Under a Unified Software Defect Prediction Framework
 ### A Large-Scale Evaluation Across 17 Datasets
 
 This repository contains the implementation used in our empirical study evaluating modern tabular deep learning models for **Software Defect Prediction (SDP)**. The framework benchmarks classical machine learning algorithms, deep tabular neural networks, transformer-based architectures, and ensemble methods across **17 publicly available NASA PROMISE and AEEEM datasets**.
@@ -312,8 +312,6 @@ This project is released under the MIT License.
 Department of Computing Technologies
 
 SRM Institute of Science and Technology
-
-Email: *Add your email here*
 
 ---
 
