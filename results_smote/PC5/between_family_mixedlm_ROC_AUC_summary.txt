@@ -1,0 +1,18 @@
+Mode: nested random intercept per Dataset::Model (only one dataset present); Ensemble excluded from Family
+
+             Mixed Linear Model Regression Results
+================================================================
+Model:                MixedLM    Dependent Variable:    ROC_AUC 
+No. Observations:     65         Method:                REML    
+No. Groups:           13         Scale:                 0.0005  
+Min. group size:      5          Log-Likelihood:        129.4253
+Max. group size:      5          Converged:             Yes     
+Mean group size:      5.0                                       
+----------------------------------------------------------------
+                      Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+----------------------------------------------------------------
+Intercept              0.770    0.015 52.728 0.000  0.741  0.798
+Family[T.DeepTabular] -0.031    0.027 -1.145 0.252 -0.083  0.022
+Family[T.Transformer] -0.045    0.027 -1.700 0.089 -0.098  0.007
+Group Var              0.001    0.032                           
+================================================================

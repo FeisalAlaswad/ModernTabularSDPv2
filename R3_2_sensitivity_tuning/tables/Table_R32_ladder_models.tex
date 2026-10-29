@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Mean ROC-AUC (\%) of each neural model under each ladder arm (Mode 4, 17 datasets x 5 folds) and the change relative to the default arm.}
+\label{tab:r32_ladder_models}
+\begin{tabular}{lrrrrrrrrrrrrrrrrr}
+\toprule
+Model & default & lr\_plateau & wd\_1e-4 & wd\_1e-3 & dropout\_0.2 & dropout\_0.4 & patience\_15 & batch\_64 & small\_data & d\_lr\_plateau & d\_wd\_1e-4 & d\_wd\_1e-3 & d\_dropout\_0.2 & d\_dropout\_0.4 & d\_patience\_15 & d\_batch\_64 & d\_small\_data \\
+\midrule
+TabNet & 68.05 & NaN & 69.37 & 69.16 & 67.90 & 67.56 & 69.36 & 70.95 & NaN & NaN & 1.31 & 1.11 & -0.15 & -0.50 & 1.31 & 2.90 & NaN \\
+GANDALF & 75.38 & 75.38 & 75.41 & 75.43 & 76.18 & 76.58 & 73.88 & 74.68 & 73.83 & 0.00 & 0.02 & 0.05 & 0.79 & 1.19 & -1.51 & -0.71 & -1.55 \\
+DANet & 73.45 & 73.45 & 73.86 & 73.42 & 74.02 & 74.37 & 73.67 & 73.79 & 73.74 & 0.00 & 0.40 & -0.03 & 0.57 & 0.92 & 0.21 & 0.34 & 0.29 \\
+FT-Transformer & 75.89 & 75.89 & 76.02 & 76.04 & 75.97 & 76.49 & 74.35 & 76.68 & 75.64 & 0.00 & 0.14 & 0.15 & 0.08 & 0.60 & -1.54 & 0.79 & -0.25 \\
+TabTransformer & 72.64 & 72.64 & 72.64 & 72.71 & 72.64 & 72.64 & 74.34 & 74.02 & 74.65 & 0.00 & 0.00 & 0.07 & 0.00 & 0.00 & 1.70 & 1.38 & 2.01 \\
+AutoInt & 74.15 & 74.22 & 74.35 & 74.77 & 74.38 & 74.57 & 74.88 & 74.70 & 74.64 & 0.07 & 0.21 & 0.62 & 0.23 & 0.42 & 0.73 & 0.55 & 0.50 \\
+\bottomrule
+\end{tabular}
+\end{table}

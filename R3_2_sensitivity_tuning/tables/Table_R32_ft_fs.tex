@@ -1,0 +1,13 @@
+\begin{table}
+\caption{FT-Transformer without oversampling: ROC-AUC (\%) with all features (Mode 1) and with the fold-wise SHAP-RF subset (Mode 3) for the default and a compact small-data configuration; FS effect in percentage points with bootstrap CI over datasets.}
+\label{tab:r32_ft_fs}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Config & n\_datasets & ROC\_all\_features & ROC\_FS & FS\_effect & ci\_low & ci\_high & datasets\_improved & datasets\_declined & p & p\_holm \\
+\midrule
+compact\_small\_data & 17 & 77.15 & 76.60 & -0.56 & -1.58 & 0.48 & 6.00 & 11.00 & 0.21 & 0.29 \\
+default & 17 & 75.41 & 72.65 & -2.76 & -5.57 & -0.46 & 5.00 & 12.00 & 0.03 & 0.08 \\
+difference (compact - default) & 17 & NaN & NaN & 2.20 & -0.18 & 5.47 & NaN & NaN & 0.14 & 0.29 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+Mode: CROSSED random effects across 17 datasets (Dataset and Model as separate variance components); Ensemble excluded from Family
+
+             Mixed Linear Model Regression Results
+================================================================
+Model:                MixedLM    Dependent Variable:    ROC_AUC 
+No. Observations:     1105       Method:                REML    
+No. Groups:           1          Scale:                 0.0087  
+Min. group size:      1105       Log-Likelihood:        998.8137
+Max. group size:      1105       Converged:             Yes     
+Mean group size:      1105.0                                    
+----------------------------------------------------------------
+                      Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+----------------------------------------------------------------
+Intercept              0.767    0.021 35.687 0.000  0.725  0.809
+Family[T.DeepTabular] -0.078    0.024 -3.229 0.001 -0.125 -0.030
+Family[T.Transformer] -0.064    0.024 -2.671 0.008 -0.111 -0.017
+Dataset Var            0.005    0.019                           
+Model Var              0.001    0.006                           
+================================================================

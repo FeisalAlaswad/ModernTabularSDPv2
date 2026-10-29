@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Effect of the TabNet drop\_last defect: mean TabNet ROC-AUC and the Deep Tabular $-$ Classical gap (percentage points) with the published TabNet results and with TabNet re-run with drop\_last=False.}
+\label{tab:r32_tabnet_summary}
+\begin{tabular}{rrrrrrrrrrr}
+\toprule
+Mode & datasets\_with\_untrained\_folds & TabNet\_mean\_pipeline & TabNet\_mean\_fixed & DT\_gap\_published & DT\_gap\_fixed & gap\_change & ci\_low & ci\_high & p & p\_holm \\
+\midrule
+1 & 5 & 63.48 & 68.66 & 7.05 & 5.33 & -1.73 & -2.95 & -0.62 & 0.01 & 0.03 \\
+2 & 3 & 64.63 & 65.11 & 6.41 & 6.25 & -0.16 & -1.01 & 0.54 & 0.71 & 1.00 \\
+3 & 5 & 62.81 & 65.33 & 7.75 & 6.91 & -0.84 & -1.89 & 0.03 & 0.14 & 0.44 \\
+4 & 3 & 65.44 & 67.22 & 5.75 & 5.16 & -0.59 & -1.98 & 0.62 & 0.55 & 1.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
